@@ -52,6 +52,7 @@ class UdemyIE(InfoExtractor):
             'duration': 579.29,
         },
         'skip': 'Requires udemy account credentials',
+        'only_matching': True,
     }, {
         'url': 'https://www.udemy.com/course/create-a-members-only-blog-using-php-mysql-ajax/learn/lecture/15352006',
         'note': 'test for updated URL',
